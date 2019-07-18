@@ -3,11 +3,15 @@ package com.dineshkrish.dkpings;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+/**
+ * @author Dinesh Krishnan
+ */
+
 @SpringBootApplication
-public class DkpingsApplication {
+public class MainApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(DkpingsApplication.class, args);
+		SpringApplication.run(MainApplication.class, args);
 	}
 
 }
